@@ -25,8 +25,8 @@ navbar:
       href: https://github.com/mwclance       # CHANGE HERE 
 output:
   html_document:
-    theme: cosmo
-    highlight: textmate
+    theme: yeti
+    highlight: tango
     css: personal.css
     includes:
       in_header: header.html
