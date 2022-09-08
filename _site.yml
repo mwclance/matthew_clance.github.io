@@ -1,7 +1,7 @@
 name: "Matthew Clance"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: ""       # CHANGE HERE 
+  title: "Matthew Clance"                             # CHANGE HERE 
   type: inverse
   left:
     - text: "Home"
@@ -13,12 +13,9 @@ navbar:
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
-    - text: "UP Economics"
-      href: (https://www.up.ac.za/economics/article/39728/staff/)  # CHANGE HERE OR DELETE ALL 3 LINES 
-    - text: "Research"
-      href: research.html  # CHANGE HERE OR DELETE ALL 3 LINES
-    - text: "Teaching"
-      href: teaching.html  # CHANGE HERE OR DELETE ALL 3 LINES
+    - text: "Blog"
+      icon: fa-rss
+      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
   right:
     - text: "Contact me"
       icon: fa-envelope-o
@@ -26,17 +23,7 @@ navbar:
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/mwclance       # CHANGE HERE 
-output:  
-  html_document:  
-    theme: yeti
-    highlight: tango
-    toc: true
-    toc_float: 
-      collapsed: false
-      smooth_scroll: false
-    css:
-    - personal.css
-    includes:
-      in_header: header.html
-      
-    
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
