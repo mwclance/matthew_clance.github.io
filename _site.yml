@@ -7,15 +7,15 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
-      icon: fa-user 
-      href: about.html
     - text: "CV"
       icon: fa-file-pdf-o
-      href: cv.html
-    - text: "Blog"
-      icon: fa-rss
-      href: https://YOURGITHUB.github.io/blog/  # CHANGE HERE OR DELETE ALL 3 LINES 
+      href: Clance.CV.pdf
+    - text: "UP Economics"
+      href: https://www.up.ac.za/economics/article/39728/staff
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
   right:
     - text: "Contact me"
       icon: fa-envelope-o
@@ -27,3 +27,9 @@ output:
   html_document:
     theme: cosmo
     highlight: textmate
+    css: personal.css
+    includes:
+      in_header: header.html
+    toc: true
+    toc_float: true
+    

@@ -11,7 +11,7 @@
 
 
 
-<title>Welcome to my website!</title>
+<title>Matthew Clance</title>
 
 <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,11 +29,20 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<div class="hero-image"> 
+        <div class="image-text">
+          <div class="top-text"></div>
+            <div class="bottom-text"></div>
+        </div>
+</div>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -60,6 +69,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="personal.css" type="text/css" />
 
 
 
@@ -228,6 +238,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -235,6 +308,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -259,25 +342,20 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="about.html">
-    <span class="fa fa-user"></span>
-     
-    About
-  </a>
-</li>
-<li>
-  <a href="cv.html">
+  <a href="Clance.CV.pdf">
     <span class="fa fa-file-pdf-o"></span>
      
     CV
   </a>
 </li>
 <li>
-  <a href="https://YOURGITHUB.github.io/blog/">
-    <span class="fa fa-rss"></span>
-     
-    Blog
-  </a>
+  <a href="https://www.up.ac.za/economics/article/39728/staff">UP Economics</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -304,15 +382,76 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome to my website!</h1>
+<h1 class="title toc-ignore">Matthew Clance</h1>
 
 </div>
 
 
-<p>You’re up and running!</p>
+<div id="about-me" class="section level2">
+<h2>About me</h2>
+<p>Matthew Clance is an Associate Professor at the University of
+Pretoria and a Fellow at Pan-African Scientific Council. His background
+includes applied econometrics and geospatial analysis of micro Big Data
+and he has worked on various projects related to the Lancet Commission
+and African Climate Policy Center projects. Related areas include
+climate change and geographic features on health outcomes, impacts of
+restrictions on Covid-19 death rates, and conflict and development. He
+has supervised PhD and Postdoc studies on gender inequality in
+Sub-Saharan Africa.</p>
+<p>Matthew’s research interests include the connection between
+international trade and development and geospatial econometric analysis
+of inequality and conflict determinants. He has experience working with
+the Federal Reserve bank of Atlanta as a Research Associate and worked
+on various Lancet Commission and African Climate Policy Center projects.
+His research has appeared in Journal of Development Economics, Food
+Policy, Applied Economic Letters, Tourism Economics, and Sustainability,
+among others.</p>
+</div>
+<div id="research-visibility" class="section level2">
+<h2>Research Visibility</h2>
+<ul>
+<li><a href="../Clance.CV.pdf">Curriculum Vitae</a></li>
+<li><a
+href="https://scholar.google.com/citations?user=V35R6dgAAAAJ&amp;hl=en&amp;authuser=1">Google
+Scholar</a></li>
+<li><a href="https://ideas.repec.org/e/pcl147.html">RePEc</a></li>
+<li><a href="https://orcid.org/0000-0002-9280-7324">ORCID</a></li>
+<li><a
+href="https://www.webofscience.com/wos/author/record/1802162">Publons</a></li>
+</ul>
+</div>
+<div id="selected-publications" class="section level2">
+<h2>Selected Publications</h2>
+<ul>
+<li><p>van der Merwe, E., Clance, M., and Yitbarek, E. (2022). Climate
+change and child malnutrition: A nigerian perspective. Food Policy, page
+102281 <a href="https://doi.org/10.1016/j.foodpol.2022.102281"
+class="uri">https://doi.org/10.1016/j.foodpol.2022.102281</a></p></li>
+<li><p>Bosch, A., Clance, M., and Koch, S. F. (2022). Household debt and
+consumption dynamics a non-developed world view following the financial
+crisis. Applied Economics, 54(8):897–917 <a
+href="https://doi.org/10.1080/00036846.2021.1969004"
+class="uri">https://doi.org/10.1080/00036846.2021.1969004</a></p></li>
+<li><p>Chisadza, C., Clance, M., and Gupta, R. (2021a). Government
+effectiveness and the covid-19 pandemic. Sustainability, 13(6) <a
+href="https://doi.org/10.3390/su13063042"
+class="uri">https://doi.org/10.3390/su13063042</a></p></li>
+<li><p>Chisadza, C., Clance, M., Gupta, R., and Wanke, P. (2020).
+Uncertainty and tourism in africa. Tourism Economics, <a
+href="https://doi.org/10.1177/1354816620969998"
+class="uri">https://doi.org/10.1177/1354816620969998</a></p></li>
+<li><p>Baier, Scott, Jeffrey Bergstrand, Matthew Clance, (2018)
+“Heterogeneous Effects of Economic Integration Agreements.” Journal of
+Development Economics, Elsevier, vol. 135(C), pages 587-608 <a
+href="https://doi.org/10.1016/j.jdeveco.2018.08.014"
+class="uri">https://doi.org/10.1016/j.jdeveco.2018.08.014</a></p></li>
+</ul>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -345,6 +484,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
