@@ -32,7 +32,7 @@ output:
     highlight: tango
     toc: true
     toc_float: true
-    css: personal.css
+    css: "personal.css"
 
     
     
