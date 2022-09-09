@@ -1,6 +1,0 @@
----
-title: "CV"
----
-
-<a href="Clance.CV.pdf#" class="download" title="Download CV as PDF">Download CV</a>			
-
