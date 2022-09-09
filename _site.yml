@@ -27,8 +27,6 @@ output:
   html_document:
     theme: yeti
     highlight: tango
-    toc: true
-    toc_float: true
-    css: "personal.css"
+
     
     
