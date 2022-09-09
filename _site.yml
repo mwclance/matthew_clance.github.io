@@ -28,7 +28,7 @@ output:
     css: personal.css
     includes:
       in_header:
-      - header.html
+      - hero.html
     theme: yeti
     highlight: tango
     toc: true
