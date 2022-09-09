@@ -25,6 +25,7 @@ navbar:
     href: https://github.com/mwclance       # CHANGE HERE 
 output:
   html_document:
+    css: personal.css
     includes:
       in_header:
       - header.html
@@ -32,7 +33,7 @@ output:
     highlight: tango
     toc: true
     toc_float: true
-    css: "personal.css"
+    
 
     
     
