@@ -27,9 +27,7 @@ output:
   html_document:
     theme: yeti
     highlight: tango
-    css: personal.css
-    includes:
-      in_header: header.html
+    css: "personal.css"
     toc: true
     toc_float: true
     
