@@ -25,13 +25,8 @@ navbar:
     href: https://github.com/mwclance       # CHANGE HERE 
 output:
   html_document:
-    includes:
-      in_header:
-      - header.html
     theme: yeti
     highlight: tango
-    toc: true
-    toc_float: true
-    css: "personal.css"
+
     
     
