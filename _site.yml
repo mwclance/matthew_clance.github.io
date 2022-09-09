@@ -25,7 +25,6 @@ navbar:
     href: https://github.com/mwclance       # CHANGE HERE 
 output:
   html_document:
-    css: personal.css
     includes:
       in_header:
       - hero.html
