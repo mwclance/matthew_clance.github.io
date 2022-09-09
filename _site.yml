@@ -7,11 +7,33 @@ navbar:
   - text: "Home"
     icon: fa-home
     href: index.html
+  - text: "CV"
+    icon: fa-file-pdf-o
+    href: Clance.CV.pdf
+  - text: "UP Economics"
+    href: https://www.up.ac.za/economics/article/39728/staff
+  - text: "Research"
+    href: research.html
+  - text: "Teaching"
+    href: teaching.html
+  right:
+  - text: "Contact me"
+    icon: fa-envelope-o
+    href: mailto:matthew.clance@up.ac.za                    # CHANGE HERE 
+  - text: "GitHub"
+    icon: fa-github
+    href: https://github.com/mwclance       # CHANGE HERE 
 output:
   html_document:
+    css: personal.css
+    includes:
+      in_header:
+      - hero.html
     theme: yeti
     highlight: tango
-
+    toc: true
+    toc_float: true
+    
 
     
     
