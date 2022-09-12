@@ -1,7 +1,7 @@
 name: "Matthew Clance"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "Matthew Clance"                             # CHANGE HERE 
+  title: "Matthew Clance, PhD"                             # CHANGE HERE 
   type: inverse
   left:
   - text: "Home"
@@ -33,7 +33,3 @@ output:
     highlight: tango
     toc: true
     toc_float: true
-    
-
-    
-    
