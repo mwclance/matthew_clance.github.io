@@ -1,6 +1,6 @@
 # Research Visibility
 
-- ![Curriculum Vitae](Clance.CV.pdf)
+- [Curriculum Vitae](Clance.CV.pdf)
 - [Google Scholar](https://bit.ly/3hm23Oq)
 - [RePEc](https://ideas.repec.org/e/pcl147.html)
 - [ORCID](https://orcid.org/0000-0002-9280-7324)
