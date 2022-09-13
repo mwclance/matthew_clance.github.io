@@ -29,7 +29,7 @@ a:hover {
 .section h3, 
 .section h4, 
 .section h5 { 
-  padding-top: 3em !important; /*adding so much padding because theme adds a margin-top: -65px by default */
+  padding-top: 1.75em !important; /*adding so much padding because theme adds a margin-top: -65px by default */
   margin-bottom: 0.75em;
 }
 
@@ -165,8 +165,8 @@ a.navbar-brand:hover {
     position: relative;
     margin-bottom: 2em;
     /* liner gradient tints the image darker for readability*/
-    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(world_1_orig.jpg); 
-    height: 400px;
+    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(canal.png); 
+    height: 600px;
     background-size: 100% 100%;
     background-color: #141c25f2;
     background-position: center center;
