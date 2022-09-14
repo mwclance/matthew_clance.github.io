@@ -23,6 +23,12 @@ navbar:
   - text: "GitHub"
     icon: fa-github
     href: https://github.com/mwclance       # CHANGE HERE 
+  - text: "Twitter"
+    icon: fa-twitter
+    href: https://twitter.com/matthew_clance       # CHANGE HERE
+  - text: "Instagram"
+    icon: fa-instagram
+    href: https://www.instagram.com/mwclance/       # CHANGE HERE
 output:
   html_document:
     css: personal.css
