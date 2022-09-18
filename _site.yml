@@ -34,6 +34,7 @@ output:
     css: personal.css
     includes:
       in_header:
+      - logo-option.html
       - hero.html
     theme: yeti
     highlight: tango
