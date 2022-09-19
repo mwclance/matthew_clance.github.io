@@ -1,7 +1,7 @@
 name: "Matthew Clance"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "Matthew Clance, PhD"                             # CHANGE HERE 
+  title: '<div><img src="vcv.png" width="35px"></img>  Matthew Clance, PhD</div>' 
   type: inverse
   left:
   - text: "Home"

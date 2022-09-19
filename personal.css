@@ -127,12 +127,6 @@ a.navbar-brand:hover {
   background-color: #141c25;
 }
 
-nav ul{
-     display: flex;
-     list-style: wrap;
-     align-items: center;
- }
-
 /*------------FOOTER----------*/
 
 /* Divider line above footer */
