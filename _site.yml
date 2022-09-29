@@ -32,12 +32,13 @@ navbar:
 output:
   html_document:
     css: personal.css
-    includes:
+    includes: 
       in_header:
       - logo-option.html
       - hero.html
+      - analytics.html
     theme: yeti
     highlight: tango
     toc: true
     toc_float: true
-google_analytics: G-FEVK27LWND
+    
