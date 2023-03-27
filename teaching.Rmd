@@ -16,10 +16,14 @@ title: Matthew Clance
 
 - Honours level:
   - Econometrics
+    - [Introduction to R (Created by Eduard van der Merwe](https://drive.google.com/drive/folders/1-_Z5LC-NPV9-c4til13Ov1CcsgHlk_lB?usp=sharing)
   - Microeconomics
   - International Trade
 - Graduate level:
   - Econometrics (Cross Section and Panel)
   - International Trade
 - Short Courses:
-  - ERSA Workshop in Cross Sectional Econometrics
+  - ERSA Workshop in Cross Sectional Econometrics (2015-2023)
+    - [March 6 - 31](https://drive.google.com/drive/folders/162QkTBPZglXLJDd_8C-plk9R0yp_Ny_G?usp=sharing)
+  - R Introduction (University of Notre Dame - 2022)
+    - Additional material for setup (including LaTeX) at [Installation Guide: R, RStudio, RMarkdown, and LaTeX by Lauren Ash](https://gotellilab.github.io/Bio381/Homeworks/Installation_Instructions.html)
