@@ -22,12 +22,13 @@ title: Matthew Clance
 
 # Selected Publications
 
-van der Merwe, E., Clance, M., and Yitbarek, E. (2022). Climate change and child malnutrition: A nigerian perspective. Food Policy, page 102281 https://doi.org/10.1016/j.foodpol.2022.102281
+Leon\'e Walters, C. C. and Clance, M. (2023). The effect of pre-colonial ethnic institutions and european influences on contemporary education in sub-Saharan Africa. The Journal of Development Studies, 59(10):1469–1490 \url{https://doi.org/10.1080/00220388.2023.2222211}
 
-Bosch, A., Clance, M., and Koch, S. F. (2022). Household debt and consumption dynamics a non-developed world view following the financial crisis. Applied Economics, 54(8):897–917 https://doi.org/10.1080/00036846.2021.1969004
+van der Merwe, E., Clance, M., and Yitbarek, E. (2022). Climate change and child malnutrition: A nigerian perspective. Food Policy, page 102281 \url{https://doi.org/10.1016/j.foodpol.2022.102281}
 
-Chisadza, C., Clance, M., and Gupta, R. (2021a). Government effectiveness and the covid-19 pandemic. Sustainability, 13(6) https://doi.org/10.3390/su13063042
+Bosch, A., Clance, M., and Koch, S. F. (2022). Household debt and consumption dynamics a non-developed world view following the financial crisis. Applied Economics, 54(8):897–917 \url{https://doi.org/10.1080/00036846.2021.1969004}
 
 Chisadza, C., Clance, M., Gupta, R., and Wanke, P. (2020). Uncertainty and tourism in africa. Tourism Economics, https://doi.org/10.1177/1354816620969998
 
 Baier, Scott, Jeffrey Bergstrand, Matthew Clance, (2018) “Heterogeneous Effects of Economic Integration Agreements.” Journal of Development Economics, Elsevier, vol. 135(C), pages 587-608 https://doi.org/10.1016/j.jdeveco.2018.08.014
+

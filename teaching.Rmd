@@ -16,7 +16,9 @@ title: Matthew Clance
 
 - Honours level:
   - Econometrics
-    - [Introduction to R (Created by Eduard van der Merwe](https://drive.google.com/drive/folders/1-_Z5LC-NPV9-c4til13Ov1CcsgHlk_lB?usp=sharing)
+    - [Introduction to R (Created by Eduard van der Merwe)](https://drive.google.com/drive/folders/1-_Z5LC-NPV9-c4til13Ov1CcsgHlk_lB?usp=sharing)
+    - [Introduction to R: EKT/EKN 795](https://drive.google.com/drive/folders/1fx86ttnWd4XB9A_f7CPzZS62VDB7Tjf9?usp=sharing)
+    - [Introduction to Stata: EKT/EKN 795](https://drive.google.com/drive/folders/1l4YVJ17Nhq1Tcr-dFU0XSi__WiUqzPWP?usp=sharing)
   - Microeconomics
   - International Trade
 - Graduate level:
