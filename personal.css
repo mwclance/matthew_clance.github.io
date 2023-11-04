@@ -165,7 +165,7 @@ a.navbar-brand:hover {
     position: relative;
     margin-bottom: 2em;
     /* liner gradient tints the image darker for readability*/
-    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(canal.png); 
+    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(world.png); 
     height: 600px;
     background-size: 100% 100%;
     background-color: #141c25f2;
