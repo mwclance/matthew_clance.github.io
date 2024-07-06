@@ -25,7 +25,7 @@ title: Matthew Clance
   - Econometrics (Cross Section and Panel)
   - International Trade
 - Short Courses:
-  - ERSA Workshop in Cross Sectional Econometrics (2015-2023)
+  - ERSA Workshop in Cross Sectional Econometrics (2015-2024)
     - [July 8 - 12](https://drive.google.com/drive/folders/162QkTBPZglXLJDd_8C-plk9R0yp_Ny_G?usp=sharing)
   - R Introduction (University of Notre Dame - 2022)
     - Additional material for setup (including LaTeX) at [Installation Guide: R, RStudio, RMarkdown, and LaTeX by Lauren Ash](https://gotellilab.github.io/Bio381/Homeworks/Installation_Instructions.html)
