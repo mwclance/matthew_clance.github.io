@@ -29,7 +29,7 @@ a:hover {
 .section h3, 
 .section h4, 
 .section h5 { 
-  padding-top: 2em !important; /* Adds padding to counteract negative margins */
+  padding-top: 3em !important; /* Adds padding to counteract negative margins */
   margin-bottom: 0.75em;
   margin-left: 0em !important;
 }
@@ -99,6 +99,8 @@ a:hover {
 /*----------------NAVBAR---------------*/
 .navbar-default {
     background-color: #141c25;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .navbar-default .navbar-nav>.open>a, 
@@ -167,6 +169,8 @@ a.navbar-brand:hover {
   width: 100%;
   height: 500px; /* Adjust as needed */
   overflow: hidden; /* Hides any overflowing content */
+  margin-top: 0; /* Ensures no top margin */
+  padding-top: 0; /* Ensures no top padding */
 }
 
 /* Hero Image */
@@ -185,6 +189,8 @@ a.navbar-brand:hover {
   transform: translate(-50%, -50%); /* Offsets the text to be perfectly centered */
   text-align: center; /* Centers text if it's multi-line */
   width: 80%; /* Optional: Limits the width of the text for better readability */
+  margin-top: 0; /* Ensures no top margin */
+  padding-top: 0; /* Ensures no top padding */
 }
 
 /* Top Text Styling */
@@ -194,6 +200,8 @@ a.navbar-brand:hover {
   text-transform: uppercase;
   color: white; /* Equivalent to #ffffff72 */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Enhances text visibility against the image */
+  margin: 0; /* Remove any additional margins */
+  padding: 0; /* Remove any additional padding */
 }
 
 /* Bottom Text Styling */
