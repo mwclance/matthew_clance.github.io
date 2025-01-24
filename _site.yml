@@ -1,7 +1,7 @@
 name: "Matthew Clance"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: '<div><img src="vcv.png" width="35px"></img>  Matthew Clance, PhD</div>' 
+  title: '<div><img src="images/vcv.png" width="35px" alt="Logo">  Matthew Clance, PhD</div>' 
   type: inverse
   left:
   - text: "Home"
@@ -39,6 +39,6 @@ output:
       - analytics.html
     theme: yeti
     highlight: tango
-    toc: true
+    toc: false
     toc_float: true
     

@@ -1,7 +1,7 @@
 ---
-title: Matthew Clance
----
 
+---
+    
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEVK27LWND"></script>
 <script>
@@ -11,24 +11,27 @@ title: Matthew Clance
 
   gtag('config', 'G-FEVK27LWND');
 </script>
+    
+## Research Visibility
 
-# Research Visibility
-
-- [Curriculum Vitae](Clance.CV.pdf)
+- [Curriculum Vitae](https://drive.google.com/file/d/11zVCUOp8JxrrUv3IuqplpoB8yVj098Wd/view?usp=sharing)
 - [Google Scholar](https://bit.ly/3hm23Oq)
 - [RePEc](https://ideas.repec.org/e/pcl147.html)
 - [ORCID](https://orcid.org/0000-0002-9280-7324)
 - [WOS](https://www.webofscience.com/wos/author/record/1802162)
 
-# Selected Publications
+<div style="height: 25px;"></div>
 
-Leon\'e Walters, C. C. and Clance, M. (2023). The effect of pre-colonial ethnic institutions and european influences on contemporary education in sub-Saharan Africa. The Journal of Development Studies, 59(10):1469–1490 \url{https://doi.org/10.1080/00220388.2023.2222211}
+## Selected Publications {.sp-section}
 
-van der Merwe, E., Clance, M., and Yitbarek, E. (2022). Climate change and child malnutrition: A nigerian perspective. Food Policy, page 102281 \url{https://doi.org/10.1016/j.foodpol.2022.102281}
+- **Walters, L., Chisadza, C., and Clance, M. (2024).** Slave trades, kinship structures and women's political participation in Africa. *Kyklos*, 77(3), 734–758. [https://doi.org/10.1111/kykl.12384](https://doi.org/10.1111/kykl.12384)
 
-Bosch, A., Clance, M., and Koch, S. F. (2022). Household debt and consumption dynamics a non-developed world view following the financial crisis. Applied Economics, 54(8):897–917 \url{https://doi.org/10.1080/00036846.2021.1969004}
+- **Walters, L., Chisadza, C., and Clance, M. (2023).** The effect of pre-colonial ethnic institutions and European influences on contemporary education in sub-Saharan Africa. *The Journal of Development Studies*, 59(10):1469–1490. [https://doi.org/10.1080/00220388.2023.2222211](https://doi.org/10.1080/00220388.2023.2222211)
 
-Chisadza, C., Clance, M., Gupta, R., and Wanke, P. (2020). Uncertainty and tourism in africa. Tourism Economics, https://doi.org/10.1177/1354816620969998
+- **van der Merwe, E., Clance, M., and Yitbarek, E. (2022).** Climate change and child malnutrition: A Nigerian perspective. *Food Policy*, 102281. [https://doi.org/10.1016/j.foodpol.2022.102281](https://doi.org/10.1016/j.foodpol.2022.102281)
 
-Baier, Scott, Jeffrey Bergstrand, Matthew Clance, (2018) “Heterogeneous Effects of Economic Integration Agreements.” Journal of Development Economics, Elsevier, vol. 135(C), pages 587-608 https://doi.org/10.1016/j.jdeveco.2018.08.014
+- **Bosch, A., Clance, M., and Koch, S. F. (2022).** Household debt and consumption dynamics a non-developed world view following the financial crisis. *Applied Economics*, 54(8):897–917. [https://doi.org/10.1080/00036846.2021.1969004](https://doi.org/10.1080/00036846.2021.1969004)
 
+- **Chisadza, C., Clance, M., Gupta, R., and Wanke, P. (2020).** Uncertainty and tourism in Africa. *Tourism Economics*. [https://doi.org/10.1177/1354816620969998](https://doi.org/10.1177/1354816620969998)
+
+- **Baier, Scott, Jeffrey Bergstrand, Matthew Clance. (2018).** “Heterogeneous Effects of Economic Integration Agreements.” *Journal of Development Economics*, Elsevier, 135(C), 587-608. [https://doi.org/10.1016/j.jdeveco.2018.08.014](https://doi.org/10.1016/j.jdeveco.2018.08.014)

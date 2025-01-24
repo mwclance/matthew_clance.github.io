@@ -1,83 +1,84 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap');
+<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap" rel="stylesheet">
 
-
- /*------------- Whole Document---------------- */
-
+/*------------- Whole Document---------------- */
 body {
-    font-family: 'Muli';
+    font-family: 'Muli', sans-serif;
     font-size: 19px;
+    line-height: 1.6;
 }
 
-/* links */
+/* Links */
 a { 
   color: #5ebccf;
 }
 
 a:hover {
- color: #50a0b0; /* darker color when hovering */
+  color: #50a0b0;
+  text-decoration: underline;
 }
 
 /*----------------ADDING WHITE SPACE-------------*/
-
 .title {
   margin-top: 2em !important;
   margin-bottom: 0.75em;
 }
 
+/* Adjusting padding to counteract theme's negative top margin */
 .section h1,
 .section h2, 
 .section h3, 
 .section h4, 
 .section h5 { 
-  padding-top: 1.75em !important; /*adding so much padding because theme adds a margin-top: -65px by default */
+  padding-top: 2em !important; /* Adds padding to counteract negative margins */
   margin-bottom: 0.75em;
+  margin-left: 0em !important;
 }
 
-
-/* Space Between TOC and 
-  Righthand side content on large screens */
-
- @media (min-width: 992px) {
+/* Space Between TOC and Righthand side content on large screens */
+@media (min-width: 992px) {
     .col-md-9 {
       width: 75%;
       padding-left: 5em !important;
     }
- }
- 
- 
- /*----------LOGO above TOC---------*/
+}
 
+/*----------LOGO above TOC---------*/
 #TOC::before {
   content: "";
-  display: block;
-  height: 200px;
-  margin: 2em 20px 40px 20px;
-  background-image: url("mc.png");
+  display: inline-block; /* Allows the image to sit beside the text */
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  vertical-align: top; /* Aligns image with text */
+  margin: 2em 40px 40px 0; /* Increased right margin */
+  background-image: url("images/mc.png");
   background-size: contain;
-  background-position: left left;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
+/* Clearfix for #TOC */
+#TOC::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*-----------------TOC----------------*/
 
 /* Makes TOC sticky (needed if you used a hero image) */
-
-.row-fluid{
-  display: flex; /* Necessary for sticky TOC*/
-
+.row-fluid {
+  display: flex; /* Necessary for sticky TOC */
 }
 
 .tocify {
   position: -webkit-sticky;
   position: sticky; 
-  top: 120px; /*Controls where TOC stops when sticky */
+  top: 120px; /* Controls where TOC stops when sticky */
   width: 100% !important;
   border: none;
 }
 
 /* TOC links */
-
 .list-group-item {
     color: #7b8a8b;
     font-size: 16px;
@@ -95,10 +96,9 @@ a:hover {
     background-color: white;
 }
 
-/*----------------NAVBAR ---------------*/
-
+/*----------------NAVBAR---------------*/
 .navbar-default {
-    background-color: #141c25f2;
+    background-color: #141c25;
 }
 
 .navbar-default .navbar-nav>.open>a, 
@@ -113,12 +113,12 @@ a.dropdown-toggle:hover {
 }
 
 /* Dropdown menu hover color */
-  .navbar-default .dropdown-menu>li>a:hover {
-    background-color: #202831f2;
-  }
+.navbar-default .dropdown-menu>li>a:hover {
+  background-color: #202831f2;
+}
 
-/* Navbar Links when hovered*/
-.navbar-default .dropdown-menu>.active>a
+/* Navbar Links when hovered */
+.navbar-default .dropdown-menu>.active>a,
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav:hover, 
 .navbar-default .navbar-nav>li>a:hover, 
@@ -154,19 +154,18 @@ a.navbar-brand:hover {
 }
 
 .tocify-extend-page {
-  height: 0px !important; /* Gets rid of extra space after footer*/
+  height: 0px !important; /* Gets rid of extra space after footer */
 }
 
 /* -----------HERO IMAGE AT TOP OF PAGE -----------*/
 
-/* LARGE HERO IMAGE AT TOP OF PAGE*/
-
+/* LARGE HERO IMAGE AT TOP OF PAGE */
 .hero-image {
     position: relative;
     margin-bottom: 2em;
-    /* liner gradient tints the image darker for readability*/
-    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(world.png); 
-    height: 600px;
+    /* linear gradient tints the image darker for readability */
+    background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(images/world.webp); 
+    height: 30vh;
     background-size: 100% 100%;
     background-color: #141c25f2;
     background-position: center center;
@@ -179,7 +178,7 @@ a.navbar-brand:hover {
 .top-text {
   position: relative;
   font-size: 34px;
-  padding-bottom: 0.5em
+  padding-bottom: 0.5em;
   text-transform: uppercase;
   text-align: center;
   display: block; /* Change to `display: none` for no top text */
@@ -200,19 +199,141 @@ a.navbar-brand:hover {
 }
 
 /* NO TOC on mobile */
-@media screen and (max-width: 767px){
-
-  .col-xs-12.col-sm-4.col-md-3 {
-    display: none;
-  }
-  
-  .top-text {
-    font-size: 25px;
+@media (max-width: 767px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .bottom-text {
-    font-size: 40px;
+  .profile-image {
+    width: 120px; /* Smaller size on mobile */
+    margin-right: 0;
+    margin-bottom: 15px;
   }
+
+  .button-container {
+    text-align: center;
+  }
+}
+
+/*----------BUTTON STYLING----------*/
+/* Button Styling */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  margin: 10px 10px 0 0; /* Top margin for spacing */
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff; /* Blue color */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Button Container */
+.button-container {
+  margin-top: 20px; /* Adds space above the buttons */
+}
+
+/* Ensure all section headers are left-aligned */
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+/* Research Visibility and Selected Publications Sections */
+#research-visibility, #selected-publications {
+  margin-top: 40px;
+}
+
+#selected-publications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#selected-publications li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Responsive Design for Research Sections */
+@media (max-width: 767px) {
+  /* Adjust styles as needed for smaller screens */
   
-  
+  #research-visibility, #selected-publications {
+    text-align: center;
+  }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*----------PROFILE IMAGE AND TEXT STYLING----------*/
+/* Container for Profile Image and Text */
+.profile-container {
+  display: flex; /* Enables side-by-side layout */
+  align-items: flex-start; /* Aligns items at the top */
+  margin: 20px; /* Adds space around the container */
+}
+
+/* Styling the Profile Image */
+.profile-image {
+  width: 250px; /* Desired size */
+  max-width: 100%; /* Prevents the image from exceeding its container */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 25%; /* Rounds the corners of the image */
+  margin-right: 100px; /* Adds space to the right of the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+/* Styling the Profile Text */
+.profile-text {
+  flex: 1; /* Allows the text to take up remaining space */
+  text-align: left; /* Ensures text is left-aligned */
+}
+
+/* Responsive Design for Profile */
+@media (max-width: 767px) {
+  .profile-container {
+    flex-direction: column; /* Stacks image and text vertically on small screens */
+    align-items: center; /* Centers items horizontally */
+  }
+
+  .profile-image {
+    margin-right: 0; /* Removes right margin on small screens */
+    margin-bottom: 20px; /* Adds space below the image */
+    width: 200px; /* Adjusts image size for smaller screens */
+  }
+
+  .profile-text {
+    text-align: center; /* Centers text on small screens */
+  }
+}
+
+/* Custom class for larger links */
+.large-link {
+    font-size: 18px;       /* Adjust the size as desired */
+    font-weight: bold;     /* Optional: Makes the text bold */
+    color: #5ebccf;        /* Optional: Ensures the link color matches your theme */
+    text-decoration: none; /* Optional: Removes the underline */
+}
+
+.large-link:hover {
+    color: #50a0b0;        /* Optional: Changes color on hover */
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+/* Custom class for spacing above Selected Publications */
+.sp-section {
+    margin-top: 140px; /* Adjust this value to increase or decrease spacing */
 }
