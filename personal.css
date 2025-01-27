@@ -1,5 +1,3 @@
-<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap" rel="stylesheet">
-
 /*------------- Whole Document---------------- */
 body {
     font-family: 'Muli', sans-serif;
@@ -29,7 +27,7 @@ a:hover {
 .section h3, 
 .section h4, 
 .section h5 { 
-  padding-top: 3em !important; /* Adds padding to counteract negative margins */
+  padding-top: 2em !important; /* Adds padding to counteract negative margins */
   margin-bottom: 0.75em;
   margin-left: 0em !important;
 }
@@ -63,50 +61,16 @@ a:hover {
   clear: both;
 }
 
-/*-----------------TOC----------------*/
-
-/* Makes TOC sticky (needed if you used a hero image) */
-.row-fluid {
-  display: flex; /* Necessary for sticky TOC */
-}
-
-.tocify {
-  position: -webkit-sticky;
-  position: sticky; 
-  top: 120px; /* Controls where TOC stops when sticky */
-  width: 100% !important;
-  border: none;
-}
-
-/* TOC links */
-.list-group-item {
-    color: #7b8a8b;
-    font-size: 16px;
-}
-
-.list-group-item.active {
-    color: #2c3e50;
-    background-color: white;
-    border: none;
-}
-
-.list-group-item:hover, 
-.list-group-item.active:hover {
-    color: #131b23;
-    background-color: white;
-}
-
 /*----------------NAVBAR---------------*/
 .navbar-default {
     background-color: #141c25;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 0; /* Removes bottom margin */
+    padding-bottom: 0; /* Removes bottom padding */
 }
 
-.navbar-default .navbar-nav>.open>a, 
-.navbar-default .navbar-nav>.active>a, 
-a.dropdown-toggle:hover {
-  background-color: #141c25 !important;
+.navbar-default .navbar-nav > li > a {
+  padding-top: 15px; /* Adjusts vertical padding for navbar links */
+  padding-bottom: 15px;
 }
 
 /* Dropdown menu color */
@@ -130,7 +94,6 @@ a.navbar-brand:hover {
 }
 
 /*------------FOOTER----------*/
-
 /* Divider line above footer */
 .footer hr{
   width: 100%;
@@ -160,17 +123,14 @@ a.navbar-brand:hover {
 }
 
 /* -----------HERO IMAGE AT TOP OF PAGE -----------*/
-
-/* LARGE HERO IMAGE AT TOP OF PAGE */
-
 /* Hero Container */
 .hero-container {
   position: relative; /* Establishes a containing block for absolutely positioned elements */
   width: 100%;
   height: 500px; /* Adjust as needed */
   overflow: hidden; /* Hides any overflowing content */
-  margin-top: 0; /* Ensures no top margin */
-  padding-top: 0; /* Ensures no top padding */
+  margin-top: 0; /* Ensure no top margin */
+  padding-top: 0; /* Ensure no top padding */
 }
 
 /* Hero Image */
@@ -189,8 +149,8 @@ a.navbar-brand:hover {
   transform: translate(-50%, -50%); /* Offsets the text to be perfectly centered */
   text-align: center; /* Centers text if it's multi-line */
   width: 80%; /* Optional: Limits the width of the text for better readability */
-  margin-top: 0; /* Ensures no top margin */
-  padding-top: 0; /* Ensures no top padding */
+  margin: 0; /* Remove any additional margins */
+  padding: 0; /* Remove any additional padding */
 }
 
 /* Top Text Styling */
@@ -200,8 +160,6 @@ a.navbar-brand:hover {
   text-transform: uppercase;
   color: white; /* Equivalent to #ffffff72 */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Enhances text visibility against the image */
-  margin: 0; /* Remove any additional margins */
-  padding: 0; /* Remove any additional padding */
 }
 
 /* Bottom Text Styling */
