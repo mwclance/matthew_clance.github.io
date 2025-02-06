@@ -1,5 +1,5 @@
 ---
-title: "Matthew Clance, PhD"
+title: ""
 output: html_document
 header-includes:
   - <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap" rel="stylesheet">
@@ -21,6 +21,7 @@ header-includes:
   <div class="profile-text">
   
 <p>
+
 ## About
 
 Matthew Clance is an Associate Professor at the University of Pretoria and a Fellow at the Pan-African Scientific Council. He specializes in applied econometrics and geospatial analysis of micro Big Data. Matthew has contributed to projects for the Lancet Commission, African Climate Policy Center, and the United States International Trade Commission, demonstrating his expertise in various economic and environmental areas.
