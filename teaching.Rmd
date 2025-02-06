@@ -1,5 +1,6 @@
 ---
-
+title: ""
+output: html_document
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -8,22 +9,22 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-FEVK27LWND');
 </script>
 
 # Teaching
 
-- Honours level:
+- **Honours Level:**
   - Econometrics
     - [Introduction to R: EKT 795 (Created by Eduard van der Merwe)](https://drive.google.com/drive/folders/1eiTd0ZcpTPae0Z89AFLKPtMIhTnciUM3?usp=drive_link)
     - [Introduction to Stata: EKT 795](https://drive.google.com/drive/folders/1FPnumlSxkKO3raxLevHkms6WJb3IIcpt?usp=sharing)
   - Microeconomics
   - International Trade
-- Graduate level:
+- **Graduate Level:**
   - Econometrics (Cross Section and Panel)
   - International Trade
-- Short Courses:
+- **Short Courses:**
   - ERSA Workshop in Cross Sectional Econometrics (2015-2025)
   - R Introduction (University of Notre Dame - 2022)
-    - Additional material for setup (including LaTeX) at [Installation Guide: R, RStudio, RMarkdown, and LaTeX by Lauren Ash](https://gotellilab.github.io/Bio381/Homeworks/Installation_Instructions.html)
+    - Additional material for setup (including RMarkdown) available [here](setup-guide.html)
+  - Introduction to Quantile Gravity (USITC - 2025)
