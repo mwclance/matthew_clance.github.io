@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Research"
 output: html_document
 ---
 
@@ -13,7 +13,7 @@ output: html_document
   gtag('config', 'G-FEVK27LWND');
 </script>
     
-## Research Visibility
+## Visibility
 
 - [Curriculum Vitae](https://drive.google.com/file/d/11zVCUOp8JxrrUv3IuqplpoB8yVj098Wd/view?usp=sharing)
 - [Google Scholar](https://bit.ly/3hm23Oq)
