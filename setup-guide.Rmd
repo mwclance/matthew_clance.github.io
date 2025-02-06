@@ -1,0 +1,87 @@
+---
+title: "Setup Guide"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Preparation for R and RStudio Installation
+
+- Visit the [CRAN website](http://lib.stat.cmu.edu/R/CRAN/) and download the version for your operating system.
+
+- There are three options, but the instructions below focus on **Windows**:
+  - Download R for Linux (Debian, Fedora/Redhat, Ubuntu)
+  - Download R for macOS
+  - Download R for Windows
+
+- Visit the [Posit website](https://posit.co/downloads/) to download RStudio for your platform.
+
+- **Note:** R can function without RStudio, but RStudio requires R to run.
+
+- If you use a Mac, refer to the following guide for installing R and RStudio:
+  - [TC Technology Knowledge Base](https://teacherscollege.screenstepslive.com/a/1135059-install-r-and-rstudio-for-mac)
+
+## Checking If R and RStudio Are Installed
+
+Open RStudio and check the "Console" (typically in the bottom-left panel unless you have changed the layout) to see the current version of R installed.
+
+- To update to the latest version:
+  - Go to the **Help** tab $\rightarrow$ **Check for Updates**
+
+## Installing R and RStudio on Windows
+
+- Run the downloaded R installer and use the default options.
+  - Both 32-bit and 64-bit versions are installed, but most computers will use the 64-bit version.
+
+- Run the downloaded RStudio installer (a `.exe` file).
+
+
+
+# RMarkdown
+
+RMarkdown allows you to create documents (PDF, HTML, Word, or slides) that integrate code and text. It is useful for reproducible research and teaching with dynamic content.
+
+- Open RStudio and install the required packages:
+```{r, echo=TRUE, eval=FALSE}
+install.packages("rmarkdown")
+install.packages("tinytex") # TinyTeX (a lightweight LaTeX distribution)
+tinytex::install_tinytex()
+```
+
+# Introduction to RMarkdown
+
+This section provides a basic example of an RMarkdown file. You can write text, include R code, and generate output dynamically.
+
+## Load Required Packages
+```{r setup, echo=TRUE}
+library(ggplot2) # Load ggplot2 for visualization
+```
+
+## Basic Calculations in R
+```{r, echo=TRUE}
+# Simple arithmetic
+x <- 5 + 3
+x # Output result
+```
+
+## Create a Simple Plot
+```{r, echo=TRUE}
+# Generate random data
+data <- data.frame(x = rnorm(100), y = rnorm(100))
+
+# Scatter plot using ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_point() +
+  theme_minimal()
+```
+
+## Inline Code Example
+The value of `x` computed earlier is `r x`.
+
+## Conclusion
+- You can write formatted text.
+- Run and display R code within the document.
+- Generate tables, plots, and dynamically update results.
+
+Click the **Knit** button in RStudio to generate an HTML, PDF, or Word document.
