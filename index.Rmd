@@ -1,6 +1,5 @@
 ---
-title: ""
-pagetitle: "Matthew Clance, PhD"
+title: "Matthew Clance, PhD"
 output: html_document
 header-includes:
   - <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap" rel="stylesheet">
