@@ -1,7 +1,8 @@
 ---
-
+title: ""
+output: html_document
 ---
-    
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEVK27LWND"></script>
 <script>
@@ -20,7 +21,7 @@
 - [ORCID](https://orcid.org/0000-0002-9280-7324)
 - [WOS](https://www.webofscience.com/wos/author/record/1802162)
 
-<div style="height: 25px;"></div>
+<div style="height: 15px;"></div>
 
 ## Selected Publications {.sp-section}
 
