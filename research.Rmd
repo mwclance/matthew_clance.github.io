@@ -21,7 +21,12 @@ output: html_document
 - [ORCID](https://orcid.org/0000-0002-9280-7324)
 - [WOS](https://www.webofscience.com/wos/author/record/1802162)
 
-<div style="height: 15px;"></div>
+## Current Research
+
+- Bergstrand, J.H., Clance, M.W., and Santos Silva, J.M.C. (2025). The Tails of Gravity: Using Expectiles to Quantify the Trade-Margins Effects of Economic Integration Agreements, DP 01/25, University of Surrey. [https://www.surrey.ac.uk/sites/default/files/2025-02/DP01-25.pdf](https://www.surrey.ac.uk/sites/default/files/2025-02/DP01-25.pdf)
+  - Stata *appmlhdfe*: Matthew Clance and J.M.C. Santos Silva, 2025. "APPMLHDFE: Stata module to estimate asymmetric Poisson regression with high dimensional fixed effects," Statistical Software Components S459414, Boston College Department of Economics. [https://ideas.repec.org/c/boc/bocode/s459414.html](https://ideas.repec.org/c/boc/bocode/s459414.html)
+  - R function: [https://github.com/mwclance/APPML](https://github.com/mwclance/APPML)
+- Bergstrand, J.H. and Clance, M.W. (2023). "Quantile Gravity: Economic Integration Agreements, Least Traded Goods, and Least Developed Economies." [https://sites.nd.edu/jeffrey-bergstrand/files/2023/10/Bergstrand-Clance-Quantile-Gravity-Sept25_2023.pdf](https://sites.nd.edu/jeffrey-bergstrand/files/2023/10/Bergstrand-Clance-Quantile-Gravity-Sept25_2023.pdf)
 
 ## Selected Publications {.sp-section}
 
