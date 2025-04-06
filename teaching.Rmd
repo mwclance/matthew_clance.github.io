@@ -24,6 +24,7 @@ output: html_document
   - International Trade
 - **Short Courses:**
   - ERSA Workshop in Cross Sectional Econometrics (2015-2025)
+    - [Class Folder](https://drive.google.com/drive/folders/1T8FaJMw3BugT5wnfRvcT4UWuw1UxEyDG?usp=sharing)
   - R Introduction (University of Notre Dame - 2022)
     - Additional material for setup (including RMarkdown) available [here](setup-guide.html)
   - Introduction to Quantile Gravity (USITC - 2025)
