@@ -23,8 +23,11 @@ output: html_document
   - Econometrics (Cross Section and Panel)
   - International Trade
 - **Short Courses:**
-  - ERSA Workshop in Cross Sectional Econometrics (2015-2025)
-    - [Class Folder](https://drive.google.com/drive/folders/1T8FaJMw3BugT5wnfRvcT4UWuw1UxEyDG?usp=sharing)
+  - ERSA Workshop (2015-2026)
+    - Cross Sectional Econometrics 
+      - [Class Folder 2025](https://drive.google.com/drive/folders/1T8FaJMw3BugT5wnfRvcT4UWuw1UxEyDG?usp=sharing)
+    - Panel Econometrics
+      - [Class Folder 2026](https://drive.google.com/drive/folders/1qFdLLUn2pSPZF8p9qRDebkGrYAPm4Gnc?usp=sharing)
   - R Introduction (University of Notre Dame - 2022)
     - Additional material for setup (including RMarkdown) available [here](setup-guide.html)
   - Introduction to Quantile Gravity (USITC - 2025)
