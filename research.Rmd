@@ -15,20 +15,37 @@ output: html_document
     
 ## Visibility
 
-- [Curriculum Vitae](https://drive.google.com/file/d/11zVCUOp8JxrrUv3IuqplpoB8yVj098Wd/view?usp=sharing)
+- [Curriculum Vitae](Clance.CV.pdf)
 - [Google Scholar](https://bit.ly/3hm23Oq)
 - [RePEc](https://ideas.repec.org/e/pcl147.html)
 - [ORCID](https://orcid.org/0000-0002-9280-7324)
 - [WOS](https://www.webofscience.com/wos/author/record/1802162)
 
-## Current Research
+## Forthcoming
 
-- Bergstrand, J.H., Clance, M.W., and Santos Silva, J.M.C. (2025). The Tails of Gravity: Using Expectiles to Quantify the Trade-Margins Effects of Economic Integration Agreements, DP 01/25, University of Surrey. [https://www.surrey.ac.uk/sites/default/files/2025-02/DP01-25.pdf](https://www.surrey.ac.uk/sites/default/files/2025-02/DP01-25.pdf)
-  - Stata *appmlhdfe*: Matthew Clance and J.M.C. Santos Silva, 2025. "APPMLHDFE: Stata module to estimate asymmetric Poisson regression with high dimensional fixed effects," Statistical Software Components S459414, Boston College Department of Economics. [https://ideas.repec.org/c/boc/bocode/s459414.html](https://ideas.repec.org/c/boc/bocode/s459414.html)
-  - R function: [https://github.com/mwclance/APPML](https://github.com/mwclance/APPML)
-- Bergstrand, J.H. and Clance, M.W. (2023). "Quantile Gravity: Economic Integration Agreements, Least Traded Goods, and Least Developed Economies." [https://sites.nd.edu/jeffrey-bergstrand/files/2023/10/Bergstrand-Clance-Quantile-Gravity-Sept25_2023.pdf](https://sites.nd.edu/jeffrey-bergstrand/files/2023/10/Bergstrand-Clance-Quantile-Gravity-Sept25_2023.pdf)
+- Chingwere, F., Clance, M., Nicholls, N., Nsabimana, A., and Yitbarek, E. (forthcoming). "Tax Incentives and Reported Charitable Giving: Evidence from South Africa." *International Tax and Public Finance*.
+  - Earlier version: "Donations and tax incentives: Evidence from South Africa." WIDER Working Paper wp-2024-72, UNU-WIDER. [https://ideas.repec.org/p/unu/wpaper/wp-2024-72.html](https://ideas.repec.org/p/unu/wpaper/wp-2024-72.html)
+- Pleace, M., Clance, M., and Nicholls, N. (forthcoming). "The Gender Pay Gap in South Africa: Insights from Administrative Tax Data." *Feminist Economics*.
+
+## Working Papers
+
+- Clance, M., Nicholls, N., Pleace, M., and Yitbarek, E. (2025). "Appointment of Directors in South Africa: An Administrative Data Perspective." STEG Working Paper WP126, Structural Transformation and Economic Growth (CEPR). [https://steg.cepr.org/publications/appointment-directors-south-africa-administrative-data-perspective](https://steg.cepr.org/publications/appointment-directors-south-africa-administrative-data-perspective)
+- Chisadza, C., Clance, M., Nicholls, N., Yitbarek, E., and Zawaira, T. (2025). "Attitudes to Gender Inequality in South Africa: Evidence from Implicit and Explicit Attitudes." Working Paper 202514, University of Pretoria, Department of Economics.
+- Chisadza, C., Clance, M. W., Meango, R., and van Schoor, C. (2025). "Women's Agency in Conflict Settings: Evidence from Peace Agreements." Working Paper 202510, University of Pretoria, Department of Economics.
+- Zawaira, T., Bittencourt, M., and Clance, M. (2023). "Gender Inequality and the Marketisation Hypothesis: Some Evidence from Sub-Saharan Africa." SSRN Working Paper. [https://doi.org/10.2139/ssrn.4326407](https://doi.org/10.2139/ssrn.4326407)
+
+## Software
+
+- **APPMLHDFE (Stata):** Clance, M. and Santos Silva, J.M.C. (2025). "APPMLHDFE: Stata module to estimate asymmetric Poisson regression with high dimensional fixed effects." Statistical Software Components S459414, Boston College Department of Economics. [https://ideas.repec.org/c/boc/bocode/s459414.html](https://ideas.repec.org/c/boc/bocode/s459414.html)
+- **APPMLHDFE (R):** R implementation of the Stata module. Code: [https://github.com/mwclance/APPMLHDFE](https://github.com/mwclance/APPMLHDFE); documentation: [https://mwclance.github.io/APPMLHDFE/](https://mwclance.github.io/APPMLHDFE/)
 
 ## Selected Publications {.sp-section}
+
+- **Chisadza, C., Clance, M., Nicholls, N., and Zawaira, T. (2026).** Public transport, sexual harassment, and social norms: some evidence from South Africa. *Travel Behaviour and Society*, 45, 101315. [https://doi.org/10.1016/j.tbs.2026.101315](https://doi.org/10.1016/j.tbs.2026.101315)
+
+- **Bergstrand, J.H., Clance, M.W., and Santos Silva, J.M.C. (2025).** The tails of gravity: Using expectiles to quantify the trade-margins effects of economic integration agreements. *Journal of International Economics*, 157, 104145. [https://doi.org/10.1016/j.jinteco.2025.104145](https://doi.org/10.1016/j.jinteco.2025.104145)
+
+- **Bergstrand, J.H. and Clance, M.W. (2025).** Quantile gravity: Economic integration agreements, least traded goods, and less developed economies. *Review of International Economics*, 33(4), 951–987. [https://doi.org/10.1111/roie.12814](https://doi.org/10.1111/roie.12814)
 
 - **Walters, L., Chisadza, C., and Clance, M. (2024).** Slave trades, kinship structures and women's political participation in Africa. *Kyklos*, 77(3), 734–758. [https://doi.org/10.1111/kykl.12384](https://doi.org/10.1111/kykl.12384)
 
@@ -38,6 +55,11 @@ output: html_document
 
 - **Bosch, A., Clance, M., and Koch, S. F. (2022).** Household debt and consumption dynamics a non-developed world view following the financial crisis. *Applied Economics*, 54(8):897–917. [https://doi.org/10.1080/00036846.2021.1969004](https://doi.org/10.1080/00036846.2021.1969004)
 
-- **Chisadza, C., Clance, M., Gupta, R., and Wanke, P. (2020).** Uncertainty and tourism in Africa. *Tourism Economics*. [https://doi.org/10.1177/1354816620969998](https://doi.org/10.1177/1354816620969998)
+- **Chisadza, C., Clance, M., Gupta, R., and Wanke, P. (2022).** Uncertainty and tourism in Africa. *Tourism Economics*, 28(4), 964–978. [https://doi.org/10.1177/1354816620969998](https://doi.org/10.1177/1354816620969998)
 
 - **Baier, Scott, Jeffrey Bergstrand, Matthew Clance. (2018).** “Heterogeneous Effects of Economic Integration Agreements.” *Journal of Development Economics*, Elsevier, 135(C), 587-608. [https://doi.org/10.1016/j.jdeveco.2018.08.014](https://doi.org/10.1016/j.jdeveco.2018.08.014)
+
+## Policy Briefs and Reports
+
+- Clance, M., Nicholls, N., Pleace, M., and Yitbarek, E. (2025). "Moving Beyond Compliance: New Insights into Gender Diversity on South African Corporate Boards." STEG Policy Brief, Structural Transformation and Economic Growth (CEPR). [https://steg.cepr.org/publications/moving-beyond-compliance-new-insights-gender-diversity-south-african-corporate-boards](https://steg.cepr.org/publications/moving-beyond-compliance-new-insights-gender-diversity-south-african-corporate-boards)
+- Oppenheim, B., Zimmerman, A., Clance, M., et al. (2023). "Cross-national evidence on the impact of health service delivery on institutional trust." Background analysis for Panel 9 (Supplementary Appendix, section R) of "The Lancet Commission on peaceful societies through health equity and gender equality," *The Lancet*. [https://doi.org/10.1016/S0140-6736(23)01348-X](https://doi.org/10.1016/S0140-6736(23)01348-X)
